@@ -1,0 +1,25 @@
+{
+  "name": "rinha-backend-fastify",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/postgres": "^5.2.2",
+    "fastify": "^4.0.0",
+    "fastify-cli": "^6.1.0",
+    "fastify-plugin": "^4.0.0",
+    "pg": "^8.11.3"
+  }
+}
